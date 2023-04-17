@@ -9,7 +9,7 @@ public class EXERCICIO_3 {
 		Scanner leia = new Scanner(System.in);
 		
 		int idade = 0, contadormenor = 0, contadormaior = 0;
-		
+		// mudando exercicio 3 dos laços de repetição teste, não mudei nada.
 		while (idade >= 0) 
 		{
 			System.out.println("Digite uma idade: "); 
