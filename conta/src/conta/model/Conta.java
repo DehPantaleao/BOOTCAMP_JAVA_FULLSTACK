@@ -1,8 +1,8 @@
 package conta.model;
 
-public class Conta {
-  
-	private int numero;
+public abstract class Conta {
+    
+    private int numero;
 	private int agencia;
 	private int tipo;
 	private String titular;
@@ -86,9 +86,9 @@ public class Conta {
 		break;
 		}
 		
-		System.out.println("\n\n***********************************************************");
+		System.out.println("\n\n*********************************************************************");
 		System.out.println("Dados da Conta:");
-		System.out.println("***********************************************************");
+		System.out.println("*********************************************************************");
 		System.out.println("Numero da Conta: " + this.numero);
 		System.out.println("Agência: " + this.agencia);
 		System.out.println("Tipo da Conta: " + tipo);
@@ -96,7 +96,7 @@ public class Conta {
 		System.out.println("Saldo: " + this.saldo);
 
 	}
-  
+    
 }
 
 /* Criar a Classe Conta no Pacote model.
